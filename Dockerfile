@@ -1,11 +1,12 @@
-FROM node:16.17.1-alpine3.16 as build
+FROM node:18-alpine
 
-WORKDIR /usr/app
-COPY . /usr/app
+WORKDIR /app
+
+COPY package.json .
 RUN npm i
-RUN npm run build
 
-FROM nginx:1.23.1-alpine
-EXPOSE 5051
+COPY . .
 
-COPY --from=build /usr/app/dist /usr/share/nginx/html
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]
