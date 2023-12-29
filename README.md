@@ -15,12 +15,12 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/your-username/your-react-ts-vite-docker.git
+   git clone https://github.com/khodosevich/init-config-TS-vite.git
 
 2. Перейдите в каталог проекта:
 
     ```bash
-    cd your-react-ts-vite-docker
+    cd init-config-TS-vite
 
 3. Установите зависимости:
 
