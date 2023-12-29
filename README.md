@@ -15,12 +15,12 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/khodosevich/init-config-TS-vite.git
+   git clone https://github.com/khodosevich/ts-vite-docker-template.git
 
 2. Перейдите в каталог проекта:
 
     ```bash
-    cd init-config-TS-vite
+    cd ts-vite-docker-template
 
 3. Установите зависимости:
 
